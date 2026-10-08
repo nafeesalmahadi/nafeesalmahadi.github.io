@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Studio · Nafees Al Mahadi</title>
+<link rel="icon" type="image/svg+xml" href="../assets/img/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i class="g1"></i><i class="g2"></i></div>
+
+<!-- ============ LOGIN ============ -->
+<section class="login" data-login>
+  <div class="login-card glass">
+    <img src="../assets/img/logo.svg" width="56" height="56" alt="">
+    <h1>Portfolio Studio</h1>
+    <p class="muted">Sign in to edit and publish your website.</p>
+    <form data-login-form autocomplete="off">
+      <label class="fld"><span>GitHub repository</span><input name="repo" value="nafeesalmahadi/nafeesalmahadi.github.io" required spellcheck="false"></label>
+      <label class="fld"><span>Branch</span><input name="branch" value="main" required spellcheck="false"></label>
+      <label class="fld"><span>Access token</span><input name="token" type="password" required placeholder="github_pat_…" spellcheck="false"></label>
+      <label class="check"><input type="checkbox" name="remember"> <span>Remember me on this device</span></label>
+      <p class="err" data-login-err></p>
+      <button class="btn btn-primary btn-block" type="submit" data-login-btn>Connect &amp; start editing</button>
+    </form>
+    <div class="or"><span>or</span></div>
+    <button class="btn btn-ghost btn-block" type="button" data-offline>Work offline (download the file to upload yourself)</button>
+    <details class="help"><summary>How do I get an access token?</summary>
+      <ol>
+        <li>On GitHub: <b>Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token</b>.</li>
+        <li>Repository access: <b>Only select repositories → nafeesalmahadi.github.io</b>.</li>
+        <li>Permissions → Repository permissions → <b>Contents: Read and write</b>.</li>
+        <li>Generate, copy it, and paste it here. Never share it with anyone.</li>
+      </ol>
+    </details>
+  </div>
+</section>
+
+<!-- ============ APP ============ -->
+<div class="app" data-app hidden>
+  <aside class="side" data-side>
+    <a class="brand" href="../" target="_blank" rel="noopener"><img src="../assets/img/logo.svg" width="34" height="34" alt=""><span>Studio<small>Nafees Al Mahadi</small></span></a>
+    <nav class="menu" data-menu></nav>
+    <div class="side-foot">
+      <span class="conn" data-conn></span>
+      <button class="link-btn" type="button" data-logout>Sign out</button>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="top">
+      <button class="icon-btn mobile-only" type="button" data-side-toggle aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <div class="top-title"><h2 data-title>Dashboard</h2><p class="muted" data-subtitle></p></div>
+      <span class="pill" data-status>All changes saved</span>
+      <button class="btn btn-ghost" type="button" data-preview><svg viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg><span>Preview</span></button>
+      <button class="btn btn-primary" type="button" data-publish><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg><span data-publish-label>Publish</span></button>
+    </header>
+    <main class="content" data-content></main>
+  </div>
+</div>
+
+<div class="modal" data-modal hidden><div class="modal-card glass"><h3 data-modal-title></h3><p class="muted" data-modal-text></p><div class="modal-actions"><button class="btn btn-ghost" data-modal-no type="button">Cancel</button><button class="btn btn-primary" data-modal-yes type="button">Confirm</button></div></div></div>
+<div class="toasts" data-toasts aria-live="polite"></div>
+<script type="module" src="admin.js"></script>
+</body>
+</html>

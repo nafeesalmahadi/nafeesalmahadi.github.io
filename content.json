@@ -9,10 +9,19 @@
     "lastName": "Al Mahadi",
     "showAvailability": true,
     "availability": "Open to research collaborations & AI/ML roles",
-    "roles": ["AI/ML Engineer", "Researcher", "A visionary leader"],
+    "roles": [
+      "AI/ML Engineer",
+      "Researcher",
+      "A visionary leader"
+    ],
     "lead": "I build machine-learning systems that people can **trust**: explainable models for healthcare, safety-critical prediction, and the products that bring them to life.",
-    "typingPrefix": "now working on",
-    "typing": ["NLP research", "biomedical computer vision", "explainable healthcare AI", "scaling QUALATION"],
+    "typingPrefix": "now working on:",
+    "typing": [
+      "NLP research",
+      "biomedical computer vision",
+      "explainable healthcare AI",
+      "scaling QUALATION"
+    ],
     "photo": "assets/img/nafees-cutout.webp",
     "location": "Dhaka, Bangladesh",
     "cv": "assets/cv/Nafees_Al_Mahadi_CV.pdf",
@@ -20,24 +29,76 @@
     "secondaryCta": "Download CV"
   },
   "hud": [
-    { "label": "forward pass", "value": "", "live": false },
-    { "label": "model", "value": "explainable", "live": false },
-    { "label": "focus", "value": "NLP · Bio-CV", "live": false },
-    { "label": "loss", "value": "0.084 ↓", "live": true }
+    {
+      "label": "forward pass",
+      "value": "",
+      "live": false
+    },
+    {
+      "label": "model",
+      "value": "explainable",
+      "live": false
+    },
+    {
+      "label": "focus",
+      "value": "NLP · Bio-CV",
+      "live": false
+    },
+    {
+      "label": "loss",
+      "value": "0.084 ↓",
+      "live": true
+    }
   ],
   "stats": [
-    { "value": "2", "label": "IEEE conference papers accepted in 2026" },
-    { "value": "7", "label": "projects shipped: AI, web & data" },
-    { "value": "202", "label": "countries covered by my open UNICEF dataset on Kaggle" },
-    { "value": "Founding", "label": "Chairperson, IEEE CIS IUBAT Student Branch Chapter" }
+    {
+      "value": "2",
+      "label": "IEEE conference papers accepted in 2026"
+    },
+    {
+      "value": "7",
+      "label": "projects shipped: AI, web & data"
+    },
+    {
+      "value": "202",
+      "label": "countries covered by my open UNICEF dataset on Kaggle"
+    },
+    {
+      "value": "Founding",
+      "label": "Chairperson, IEEE CIS IUBAT Student Branch Chapter"
+    }
   ],
   "socials": [
-    { "type": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/nafeesalmahadi007/" },
-    { "type": "github", "label": "GitHub", "url": "https://github.com/nafeesalmahadi" },
-    { "type": "kaggle", "label": "Kaggle", "url": "https://www.kaggle.com/nafeesalmahadi" },
-    { "type": "facebook", "label": "Facebook", "url": "https://web.facebook.com/nafeesalmahadi007" },
-    { "type": "instagram", "label": "Instagram", "url": "https://www.instagram.com/captain_bengal_/" },
-    { "type": "website", "label": "QUALATION", "url": "https://qualation.pythonanywhere.com/" }
+    {
+      "type": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nafeesalmahadi007/"
+    },
+    {
+      "type": "github",
+      "label": "GitHub",
+      "url": "https://github.com/nafeesalmahadi"
+    },
+    {
+      "type": "kaggle",
+      "label": "Kaggle",
+      "url": "https://www.kaggle.com/nafeesalmahadi"
+    },
+    {
+      "type": "facebook",
+      "label": "Facebook",
+      "url": "https://web.facebook.com/nafeesalmahadi007"
+    },
+    {
+      "type": "instagram",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/captain_bengal_/"
+    },
+    {
+      "type": "website",
+      "label": "QUALATION",
+      "url": "https://qualation.pythonanywhere.com/"
+    }
   ],
   "about": {
     "eyebrow": "01 — About me",
@@ -45,16 +106,38 @@
     "highlight": "Researcher by obsession.",
     "titleEnd": "Visionary by nature.",
     "bio": "I’m a final-year Computer Science & Engineering student at IUBAT, working as a Research & Teaching Assistant at DeepScope Research and leading QUALATION, my software and AI company. I care about models that are accurate **and** explainable, especially where decisions affect people’s health and safety.",
-    "chips": ["🧠 Deep Learning", "🩻 Medical Imaging", "💬 NLP"],
+    "chips": [
+      "🧠 Deep Learning",
+      "🩻 Medical Imaging",
+      "💬 NLP"
+    ],
     "cardFile": "model_card.yaml",
     "cardVersion": "v2026.10",
     "modelCard": [
-      { "key": "role", "value": "AI/ML Engineer · Data Scientist · Researcher" },
-      { "key": "trained_at", "value": "B.Sc. CSE (final year), IUBAT" },
-      { "key": "pretraining", "value": "HSC GPA 5.00 · SSC GPA 5.00" },
-      { "key": "specialisation", "value": "ML · DL · NLP · Explainable AI · Medical imaging" },
-      { "key": "deployed_at", "value": "QUALATION · DeepScope Research · IEEE CIS IUBAT" },
-      { "key": "known_limitation", "value": "won’t ship a model that can’t explain itself" }
+      {
+        "key": "role",
+        "value": "AI/ML Engineer · Data Scientist · Researcher"
+      },
+      {
+        "key": "trained_at",
+        "value": "B.Sc. CSE (final year), IUBAT"
+      },
+      {
+        "key": "pretraining",
+        "value": "HSC GPA 5.00 · SSC GPA 5.00"
+      },
+      {
+        "key": "specialisation",
+        "value": "ML · DL · NLP · Explainable AI · Medical imaging"
+      },
+      {
+        "key": "deployed_at",
+        "value": "QUALATION · DeepScope Research · IEEE CIS IUBAT"
+      },
+      {
+        "key": "known_limitation",
+        "value": "won’t ship a model that can’t explain itself"
+      }
     ]
   },
   "research": {
@@ -69,17 +152,35 @@
         "title": "FUZZLE: A Hybrid Fuzzy Ensemble Machine Learning Framework for Interpretable Alzheimer’s Disease Staging Using OASIS Dataset",
         "authors": "**Nafees Al Mahadi**, Fairose Chahara Tohfa, Syed Khairul Islam, Amena Afrin Alo, Al Mamun Samrat, Sizan Md Thowhidul Islam",
         "summary": "A Sugeno-type neuro-fuzzy system with 12 expert-defined rules, fused with a cross-validated weighted ensemble over 26 engineered clinical and MRI-derived features. A strict patient-level split prevents leakage. SHAP and the fired fuzzy rules explain every prediction in a prototype clinical decision support system.",
-        "tags": ["Neuro-fuzzy", "Ensemble learning", "Explainable AI", "SHAP", "Healthcare"],
+        "tags": [
+          "Neuro-fuzzy",
+          "Ensemble learning",
+          "Explainable AI",
+          "SHAP",
+          "Healthcare"
+        ],
         "abstract": "Alzheimer’s Disease (AD) is a progressive neurodegenerative condition that remains challenging to stage accurately and in a timely manner, while maintaining both prediction accuracy and clinical interpretability. This study proposes FUZZLE, combining ensemble learning with a fuzzy inference system for transparent AD staging on the OASIS longitudinal dataset. Twenty-six discriminative features were engineered from clinical variables and neuroimaging data. The Sugeno-type neuro-fuzzy system has 12 expert-defined linguistic rules; class-balanced learning addresses imbalance, and the final prediction comes from a cross-validation based weighted ensemble optimized via grid search. With a strict patient-level split (120 training / 30 testing patients), the hybrid model achieved 79.45% accuracy and a macro F1-score of 0.7325, improving on the best standalone model (Extra Trees, 73.97%) and the independent neuro-fuzzy model (71.23%). SHAP analysis identified MMSE, nWBV and the Age×MMSE interaction as the most significant variables, consistent with the expert fuzzy knowledge base.",
         "link": "",
         "gaugeValue": 79.45,
         "gaugeLabel": "accuracy",
         "gaugeColor": "cyan",
         "metrics": [
-          { "key": "Macro F1", "value": "0.7325" },
-          { "key": "vs best single model", "value": "+5.48 pts" },
-          { "key": "Fuzzy rules", "value": "12" },
-          { "key": "Top SHAP", "value": "MMSE · nWBV" }
+          {
+            "key": "Macro F1",
+            "value": "0.7325"
+          },
+          {
+            "key": "vs best single model",
+            "value": "+5.48 pts"
+          },
+          {
+            "key": "Fuzzy rules",
+            "value": "12"
+          },
+          {
+            "key": "Top SHAP",
+            "value": "MMSE · nWBV"
+          }
         ]
       },
       {
@@ -88,24 +189,60 @@
         "title": "A Weighted Soft-Voting Ensemble for Nowcasting Pedestrian Evacuation Route Status",
         "authors": "Amena Afrin Alo, **Nafees Al Mahadi**, Snaholata Mondal",
         "summary": "A full pipeline that turns 24 million raw, unlabeled pedestrian trajectories from Czech train stations into a crowd-safety classifier (Optimal, Congested or Dangerous). It uses 2 m grid cells per 10-second window and a leakage audit (average speed alone gave 91%, so it was removed), then combines five tree models and a linear learner by weighted soft voting.",
-        "tags": ["Crowd safety", "Hybrid ensemble", "XGBoost · CatBoost", "Leakage control", "Trajectories"],
+        "tags": [
+          "Crowd safety",
+          "Hybrid ensemble",
+          "XGBoost · CatBoost",
+          "Leakage control",
+          "Trajectories"
+        ],
         "abstract": "Crowd crush at train stations is a major safety problem, and most systems only detect it after it happens. This study builds a full machine learning pipeline that tells if a walking path is OPTIMAL, CONGESTED or DANGEROUS, using a dataset of 24 million pedestrian records from two Czech train stations. With no labels or ready features, the study builds a new labeling method and cleaning process: raw positions become 2 m × 2 m grid boxes checked every 10 seconds (nowcasting). Leaking features were removed. Six baselines (Random Forest, XGBoost, CatBoost, Extra Trees, Decision Tree, Naive Bayes) are compared with a Hybrid Ensemble using weighted soft voting. On 168,639 unseen test samples the ensemble reaches 97.15% accuracy, F1 0.9716 and MCC 0.9573 at the best seed, with mean F1 0.9712 (±0.0003) over ten seeds. Of 57,027 truly dangerous samples, only 21 are wrongly called safe.",
         "link": "",
         "gaugeValue": 97.15,
         "gaugeLabel": "accuracy",
         "gaugeColor": "pink",
         "metrics": [
-          { "key": "F1 / MCC", "value": "0.9716 / 0.9573" },
-          { "key": "Records processed", "value": "24M" },
-          { "key": "Dangerous → “safe” errors", "value": "21 of 57,027" },
-          { "key": "Seed stability (F1)", "value": "±0.0003" }
+          {
+            "key": "F1 / MCC",
+            "value": "0.9716 / 0.9573"
+          },
+          {
+            "key": "Records processed",
+            "value": "24M"
+          },
+          {
+            "key": "Dangerous → “safe” errors",
+            "value": "21 of 57,027"
+          },
+          {
+            "key": "Seed stability (F1)",
+            "value": "±0.0003"
+          }
         ]
       }
     ],
     "ongoing": [
-      { "kind": "wip", "status": "In progress", "title": "Natural Language Processing", "text": "Ongoing NLP research. Details will be shared after submission.", "url": "" },
-      { "kind": "wip", "status": "In progress", "title": "Biomedical Computer Vision", "text": "Deep learning for medical image analysis. Details will be shared after submission.", "url": "" },
-      { "kind": "data", "status": "Open dataset · Kaggle", "title": "UNICEF Child Malnutrition (2000–2024)", "text": "Cleaned, feature-engineered data: 202 countries, 7 UN regions, 4 indicators, ready for ML and time-series work.", "url": "https://www.kaggle.com/datasets/nafeesalmahadi/unicef-child-malnutrition-advance-analysis-dataset" }
+      {
+        "kind": "wip",
+        "status": "In progress",
+        "title": "Natural Language Processing",
+        "text": "Ongoing NLP research. Details will be shared after submission.",
+        "url": ""
+      },
+      {
+        "kind": "wip",
+        "status": "In progress",
+        "title": "Biomedical Computer Vision",
+        "text": "Deep learning for medical image analysis. Details will be shared after submission.",
+        "url": ""
+      },
+      {
+        "kind": "data",
+        "status": "Open dataset · Kaggle",
+        "title": "UNICEF Child Malnutrition (2000–2024)",
+        "text": "Cleaned, feature-engineered data: 202 countries, 7 UN regions, 4 indicators, ready for ML and time-series work.",
+        "url": "https://www.kaggle.com/datasets/nafeesalmahadi/unicef-child-malnutrition-advance-analysis-dataset"
+      }
     ]
   },
   "projects": {
@@ -113,13 +250,142 @@
     "title": "Built, shipped,",
     "highlight": "and running.",
     "items": [
-      { "title": "QUALATION", "meta": "Founder & CEO · 2026", "live": true, "description": "My software and AI company: industrial software, web platforms, AI/ML and academic research support. Its website is a 3D, glass-designed Django platform with a REST API, a multi-step inquiry pipeline, secure private uploads and a super-admin control room.", "tags": ["Django", "DRF", "Three.js", "Security"], "url": "https://qualation.pythonanywhere.com/", "linkLabel": "Visit QUALATION", "art": "logo", "image": "assets/img/projects/qualation-logo.webp", "categories": ["venture", "web"], "size": "feature" },
-      { "title": "DisEase.Ai & Report Analysis", "meta": "AI healthcare · Dec 2025 – Jan 2026", "live": false, "description": "An AI healthcare assistant for symptom-based disease prediction, with treatment insights, lifestyle advice and doctor suggestions. It also analyses X-ray and MRI reports and generates summaries automatically.", "tags": ["Django", "Machine learning", "Medical imaging", "SQLite"], "url": "", "linkLabel": "", "art": "ecg", "image": "", "categories": ["ai"], "size": "tall" },
-      { "title": "Borobari", "meta": "E-commerce · web", "live": false, "description": "An online shopping website for the Borobari brand, with a clean shopping experience that works well on phones.", "tags": ["E-commerce", "Responsive UI"], "url": "", "linkLabel": "", "art": "shop", "image": "", "categories": ["web", "venture"], "size": "normal" },
-      { "title": "Online Learning Management System", "meta": "EdTech · Nov 2025", "live": false, "description": "Course browsing and purchase, role-based access for students and instructors, structured content delivery and a real-time chat between students and instructors.", "tags": ["Django", "Real-time chat", "Auth & roles"], "url": "", "linkLabel": "", "art": "chat", "image": "", "categories": ["web"], "size": "normal" },
-      { "title": "Fix Buddy", "meta": "Marketplace · Sep – Dec 2025", "live": false, "description": "A Fiverr-style marketplace for home-service mechanics: service ads as interactive cards, detailed mechanic profiles and a complete hiring workflow.", "tags": ["Django", "Marketplace", "SQLite"], "url": "", "linkLabel": "", "art": "cards", "image": "", "categories": ["web"], "size": "normal" },
-      { "title": "Two Wheeler", "meta": "Academic · Apr – May 2024", "live": false, "description": "A full-stack car booking and service management system with user accounts, vehicle browsing, bookings, automated invoices and an optimised database schema.", "tags": ["PHP", "MySQL", "JavaScript"], "url": "", "linkLabel": "", "art": "invoice", "image": "", "categories": ["web"], "size": "wide" },
-      { "title": "UNICEF Child Malnutrition Dataset", "meta": "Open data · Kaggle", "live": false, "description": "A cleaned, feature-engineered global dataset (2000–2024) covering 202 countries and 4 malnutrition indicators, built for ML, time-series and policy analysis.", "tags": ["Pandas", "Feature engineering", "Public health"], "url": "https://www.kaggle.com/datasets/nafeesalmahadi/unicef-child-malnutrition-advance-analysis-dataset", "linkLabel": "Open on Kaggle", "art": "bars", "image": "", "categories": ["ai"], "size": "wide" }
+      {
+        "title": "QUALATION",
+        "meta": "Founder & CEO · 2026",
+        "live": true,
+        "description": "My software and AI company: industrial software, web platforms, AI/ML and academic research support. Its website is a 3D, glass-designed Django platform with a REST API, a multi-step inquiry pipeline, secure private uploads and a super-admin control room.",
+        "tags": [
+          "Django",
+          "DRF",
+          "Three.js",
+          "Security"
+        ],
+        "url": "https://qualation.pythonanywhere.com/",
+        "linkLabel": "Visit QUALATION",
+        "art": "logo",
+        "image": "assets/img/projects/qualation-logo.webp",
+        "categories": [
+          "venture",
+          "web"
+        ],
+        "size": "feature"
+      },
+      {
+        "title": "DisEase.Ai & Report Analysis",
+        "meta": "AI healthcare · Dec 2025 – Jan 2026",
+        "live": false,
+        "description": "An AI healthcare assistant for symptom-based disease prediction, with treatment insights, lifestyle advice and doctor suggestions. It also analyses X-ray and MRI reports and generates summaries automatically.",
+        "tags": [
+          "Django",
+          "Machine learning",
+          "Medical imaging",
+          "SQLite"
+        ],
+        "url": "",
+        "linkLabel": "",
+        "art": "ecg",
+        "image": "",
+        "categories": [
+          "ai"
+        ],
+        "size": "tall"
+      },
+      {
+        "title": "Borobari",
+        "meta": "E-commerce · web",
+        "live": false,
+        "description": "An online shopping website for the Borobari brand, with a clean shopping experience that works well on phones.",
+        "tags": [
+          "E-commerce",
+          "Responsive UI"
+        ],
+        "url": "",
+        "linkLabel": "",
+        "art": "shop",
+        "image": "",
+        "categories": [
+          "web",
+          "venture"
+        ],
+        "size": "normal"
+      },
+      {
+        "title": "Online Learning Management System",
+        "meta": "EdTech · Nov 2025",
+        "live": false,
+        "description": "Course browsing and purchase, role-based access for students and instructors, structured content delivery and a real-time chat between students and instructors.",
+        "tags": [
+          "Django",
+          "Real-time chat",
+          "Auth & roles"
+        ],
+        "url": "",
+        "linkLabel": "",
+        "art": "chat",
+        "image": "",
+        "categories": [
+          "web"
+        ],
+        "size": "normal"
+      },
+      {
+        "title": "Fix Buddy",
+        "meta": "Marketplace · Sep – Dec 2025",
+        "live": false,
+        "description": "A Fiverr-style marketplace for home-service mechanics: service ads as interactive cards, detailed mechanic profiles and a complete hiring workflow.",
+        "tags": [
+          "Django",
+          "Marketplace",
+          "SQLite"
+        ],
+        "url": "",
+        "linkLabel": "",
+        "art": "cards",
+        "image": "",
+        "categories": [
+          "web"
+        ],
+        "size": "normal"
+      },
+      {
+        "title": "Two Wheeler",
+        "meta": "Academic · Apr – May 2024",
+        "live": false,
+        "description": "A full-stack car booking and service management system with user accounts, vehicle browsing, bookings, automated invoices and an optimised database schema.",
+        "tags": [
+          "PHP",
+          "MySQL",
+          "JavaScript"
+        ],
+        "url": "",
+        "linkLabel": "",
+        "art": "invoice",
+        "image": "",
+        "categories": [
+          "web"
+        ],
+        "size": "wide"
+      },
+      {
+        "title": "UNICEF Child Malnutrition Dataset",
+        "meta": "Open data · Kaggle",
+        "live": false,
+        "description": "A cleaned, feature-engineered global dataset (2000–2024) covering 202 countries and 4 malnutrition indicators, built for ML, time-series and policy analysis.",
+        "tags": [
+          "Pandas",
+          "Feature engineering",
+          "Public health"
+        ],
+        "url": "https://www.kaggle.com/datasets/nafeesalmahadi/unicef-child-malnutrition-advance-analysis-dataset",
+        "linkLabel": "Open on Kaggle",
+        "art": "bars",
+        "image": "",
+        "categories": [
+          "ai"
+        ],
+        "size": "wide"
+      }
     ]
   },
   "experience": {
@@ -127,21 +393,81 @@
     "title": "Where I’ve",
     "highlight": "led, built and learned.",
     "work": [
-      { "when": "2026 — present", "title": "Founder & CEO", "org": "QUALATION", "text": "Building a technology company for industrial software, web platforms, AI/ML solutions and research support.", "highlight": false },
-      { "when": "Jan 2026 — present", "title": "Research Assistant & Teaching Assistant", "org": "DeepScope Research", "text": "Machine-learning research and teaching support.", "highlight": false },
-      { "when": "Dec 2022 — Dec 2023", "title": "Customer Service Executive", "org": "SkyTech Solutions", "text": "", "highlight": false },
-      { "when": "Dec 2021 — Dec 2022", "title": "Assistant Director", "org": "Retro Production", "text": "", "highlight": false }
+      {
+        "when": "2026 — present",
+        "title": "Founder & CEO",
+        "org": "QUALATION",
+        "text": "Building a technology company for industrial software, web platforms, AI/ML solutions and research support.",
+        "highlight": false
+      },
+      {
+        "when": "Jan 2026 — present",
+        "title": "Research Assistant & Teaching Assistant",
+        "org": "DeepScope Research",
+        "text": "Machine-learning research and teaching support.",
+        "highlight": false
+      },
+      {
+        "when": "Dec 2022 — Dec 2023",
+        "title": "Customer Service Executive",
+        "org": "SkyTech Solutions",
+        "text": "",
+        "highlight": false
+      },
+      {
+        "when": "Dec 2021 — Dec 2022",
+        "title": "Assistant Director",
+        "org": "Retro Production",
+        "text": "",
+        "highlight": false
+      }
     ],
     "leadership": [
-      { "when": "Jun 2026 — present", "title": "Founding Chairperson", "org": "IEEE Computational Intelligence Society, IUBAT Student Branch Chapter", "text": "", "highlight": true },
-      { "when": "Feb 2026 — present", "title": "Member", "org": "IEEE · IEEE Computer Society IUBAT SBC", "text": "", "highlight": false },
-      { "when": "Sep 2025 — present", "title": "General Secretary", "org": "IUBAT Students Association of Patuakhali (ISAP)", "text": "", "highlight": false },
-      { "when": "Jul 2025 — present", "title": "Finance Manager", "org": "IUBAT IT Society", "text": "", "highlight": false }
+      {
+        "when": "Jun 2026 — present",
+        "title": "Founding Chairperson",
+        "org": "IEEE Computational Intelligence Society, IUBAT Student Branch Chapter",
+        "text": "",
+        "highlight": true
+      },
+      {
+        "when": "Feb 2026 — present",
+        "title": "Member",
+        "org": "IEEE · IEEE Computer Society IUBAT SBC",
+        "text": "",
+        "highlight": false
+      },
+      {
+        "when": "Sep 2025 — present",
+        "title": "General Secretary",
+        "org": "IUBAT Students Association of Patuakhali (ISAP)",
+        "text": "",
+        "highlight": false
+      },
+      {
+        "when": "Jul 2025 — present",
+        "title": "Finance Manager",
+        "org": "IUBAT IT Society",
+        "text": "",
+        "highlight": false
+      }
     ],
     "education": [
-      { "label": "B.Sc. · final year", "title": "Computer Science & Engineering", "text": "IUBAT, Dhaka" },
-      { "label": "HSC · 2019", "title": "GPA 5.00", "text": "BAF Shaheen School & College, Tejgaon" },
-      { "label": "SSC · 2017", "title": "GPA 5.00", "text": "Monipur High School & College" }
+      {
+        "label": "B.Sc. · final year",
+        "title": "Computer Science & Engineering",
+        "text": "IUBAT, Dhaka"
+      },
+      {
+        "label": "HSC · 2019",
+        "title": "GPA 5.00",
+        "text": "BAF Shaheen School & College, Tejgaon"
+      },
+      {
+        "label": "SSC · 2017",
+        "title": "GPA 5.00",
+        "text": "Monipur High School & College"
+      }
     ]
   },
   "skills": {
@@ -150,10 +476,51 @@
     "highlight": "neural network.",
     "lead": "Hover or tap any node to trace its connections.",
     "layers": [
-      { "name": "input · languages", "style": "plain", "items": ["Python", "C / C++", "C# · .NET", "JavaScript", "SQL", "PHP"] },
-      { "name": "hidden · AI", "style": "ai", "items": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Explainable AI · SHAP", "Ensembles · Fuzzy"] },
-      { "name": "hidden · engineering", "style": "plain", "items": ["Django", "HTML · CSS", "Data analysis", "Databases", "Linux · Security"] },
-      { "name": "output", "style": "out", "items": ["Research", "AI products", "Data science", "Teaching"] }
+      {
+        "name": "input · languages",
+        "style": "plain",
+        "items": [
+          "Python",
+          "C / C++",
+          "C# · .NET",
+          "JavaScript",
+          "SQL",
+          "PHP"
+        ]
+      },
+      {
+        "name": "hidden · AI",
+        "style": "ai",
+        "items": [
+          "Machine Learning",
+          "Deep Learning",
+          "NLP",
+          "Computer Vision",
+          "Explainable AI · SHAP",
+          "Ensembles · Fuzzy"
+        ]
+      },
+      {
+        "name": "hidden · engineering",
+        "style": "plain",
+        "items": [
+          "Django",
+          "HTML · CSS",
+          "Data analysis",
+          "Databases",
+          "Linux · Security"
+        ]
+      },
+      {
+        "name": "output",
+        "style": "out",
+        "items": [
+          "Research",
+          "AI products",
+          "Data science",
+          "Teaching"
+        ]
+      }
     ]
   },
   "contact": {
@@ -165,7 +532,13 @@
     "whatsapp": "8801316305345",
     "whatsappDisplay": "+880 1316-305345",
     "whatsappMessage": "Hi Nafees, I found your portfolio.",
-    "topics": ["Research collaboration", "Job / internship opportunity", "Project for QUALATION", "Speaking / IEEE event", "Something else"],
+    "topics": [
+      "Research collaboration",
+      "Job / internship opportunity",
+      "Project for QUALATION",
+      "Speaking / IEEE event",
+      "Something else"
+    ],
     "messageApiUrl": ""
   },
   "footer": {
